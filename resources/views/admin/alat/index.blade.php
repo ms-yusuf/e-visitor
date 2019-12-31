@@ -7,7 +7,7 @@
     @can('alat_create')
         <div style="margin-bottom: 10px;" class="row">
             <div class="col-lg-12">
-                <a class="btn btn-success" href="{{ route("admin.alat.create") }}">
+                <a class="btn btn-success" href="{{ route('admin.alat.create') }}">
                     {{ trans('global.add') }} {{ trans('cruds.alat.title_singular') }}
                 </a>
             </div>

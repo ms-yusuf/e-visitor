@@ -34,7 +34,7 @@
             </p>
         </div>
         <div>
-            <a class="btn btn-danger" href="{{ url()->previous() }}">
+            <a class="btn btn-danger" href="{{ route("admin.kunjungan.create") }}">
                 {{ trans('global.back') }}
             </a>
             <input class="btn btn-success" type="submit" value="{{ trans('global.save') }}">
